@@ -13,6 +13,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: 
-          cd /home/rfp
-          git pull
+        script: |
+          cd /home/rfp #
+          git pull #
